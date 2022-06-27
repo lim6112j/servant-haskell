@@ -28,6 +28,7 @@ library
       Lib
       Lib2
       Lib3
+      Lib4
   other-modules:
       Paths_myServant2
   hs-source-dirs:
@@ -48,6 +49,7 @@ library
     , servant-client-core
     , servant-server
     , stm
+    , string-conversions
     , text
     , transformers
     , transformers-base
@@ -79,6 +81,7 @@ executable myServant2-exe
     , servant-client-core
     , servant-server
     , stm
+    , string-conversions
     , text
     , transformers
     , transformers-base
@@ -111,6 +114,7 @@ test-suite myServant2-test
     , servant-client-core
     , servant-server
     , stm
+    , string-conversions
     , text
     , transformers
     , transformers-base

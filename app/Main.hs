@@ -1,6 +1,6 @@
 module Main where
 
-import Lib3
+import Lib4
 
 main :: IO ()
 main = startApp
